@@ -1,0 +1,162 @@
+.homeBg_container {
+  min-height: 100vh;
+  width: 100%;
+  padding-top: 8rem;
+  padding-bottom: 1rem;
+}
+
+.left_col {
+  display: grid;
+  justify-content: start;
+  align-items: center;
+
+}
+
+.right_col {
+  display: grid;
+  justify-content: end;
+  align-items: center;
+  margin: 0%;
+}
+
+.vector_img {
+  padding-top: 7rem;
+  max-height: 750px;
+}
+
+h1 {
+  max-width: 20ch;
+  font-family: intern;
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+.sub_heading {
+  max-width: 50ch;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+
+.span1 {
+  font-family: intern;
+  background: linear-gradient(90deg, #501E9C 0%, #8169F1 40%, #A44CEE 75%, #FF847F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3.5rem;
+}
+
+.span {
+  font-family: intern;
+  background: linear-gradient(90deg, #501E9C 0%, #8169F1 40%, #A44CEE 75%, #FF847F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 3rem;
+}
+
+.homebtn_div {
+  display: flex;
+  margin-top: 2rem;
+  gap: 30px;
+}
+
+.heading_div {
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  height: auto;
+  padding: 35px;
+  margin-top: 5em;
+}
+
+.download_btn {
+  width: auto;
+  background-color: rgba(34, 0, 128, 0.649);
+  color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  padding: 5px 15px 7px 15px;
+}
+
+.trail_text {
+
+  font-family: intern;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.trial_icon {
+  margin-top: 2px;
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+
+.circle_div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  background: none;
+
+
+
+}
+
+.circle_img {
+  max-height: 150px;
+  margin-bottom: 1rem;
+  border-radius: 180px;
+}
+
+.circle_text {
+  text-align: center;
+  max-width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+    width: auto;
+  }
+
+  .span1 {
+    font-size: 1.8rem;
+  }
+
+  .span {
+    font-size: 1.8rem;
+  }
+
+  .sub_heading {
+    font-size: 18px;
+    margin-top: 1rem;
+  }
+
+  .download_btn {
+    padding: 5px 11px 7px 11px;
+  }
+
+  /* .feature_cols {
+    margin-bottom: 20px;
+  } */
+
+  .trail_text {
+    font-size: 12.8px;
+
+  }
+
+  .circle_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+}
